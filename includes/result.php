@@ -60,7 +60,7 @@ function anytimemailbox_results() {
     $url = 'https://connect.anytimemailbox.com/v1/renters';
     $headers = array(
         'Content-type' => 'application/x-www-form-urlencoded',
-        'Authorization' => 'Bearer j0a7cJrjaOcQ9JXP3XdV2FAp'
+        'Authorization' => 'Bearer ' // + client's token
     );
 
     $args = array(
